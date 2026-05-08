@@ -1,0 +1,5 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#06080f" stroke="#00ffc8" stroke-width="2"/>
+  <text x="200" y="130" text-anchor="middle" fill="#00ffc8" font-family="Courier New" font-size="24" font-weight="bold">Projeto 4</text>
+  <text x="200" y="160" text-anchor="middle" fill="#cbd5e1" font-family="Courier New" font-size="16">Suporte N1 e Infra</text>
+</svg>
