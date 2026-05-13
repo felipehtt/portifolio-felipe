@@ -13,146 +13,351 @@
     <div class="pagina-home">
 
         <header class="topo">
-            <a class="logo" href="#">Cmd Felipe</a>
+            <a class="logo" href="#home">&lt;Felipe</a>
             <nav class="nav-menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#trajetoria">Experiência</a>
+                <a href="#skills">Skills</a>
                 <a href="#projetos">Projetos</a>
-                <a href="#servicos">Habilidades</a>
                 <a href="#contato">Contato</a>
             </nav>
+            <span class="tag-close">/&gt;</span>
         </header>
 
-        <main class="hero">
-            <section class="intro">
-                <h1>Felipe Soares</h1>
-                <p>Sou desenvolvedor web full-stack em formação, com foco em interfaces modernas, responsivas, automações e experiência do usuário. Estudante de T.I e graduando em Engenharia de Software, pronto para colaborar em projetos de desenvolvimento, front-end, back-end, automações e soluções digitais.</p>
+        <main class="conteudo-principal">
 
-                <div class="info-boxes">
-                    <div>
-                        <span class="label">Formação</span>
-                        <p>Eng. Software em formação</p>
-                    </div>
-                    <div>
-                        <span class="label">Experiência</span>
-                        <p>Dev Web, Suporte N1, Infra</p>
+            <!-- SEÇÃO HERO -->
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-badge">● Disponível para oportunidades</div>
+                    <h1>Olá, sou <span>Felipe</span></h1>
+                    <p class="hero-subtitle">💻 Estudante de Engenharia de Software e desenvolvedor web em formação</p>
+                    <p class="hero-description">Graduando em Engenharia de Software e focado em projetos práticos com
+                        React, Node.js e interfaces simples e funcionais para o usuário.</p>
+                    <div class="hero-location">📍 São Paulo, SP — Brasil | +55 11 96265-2061</div>
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="btn-primary">Meus Projetos</a>
+                        <a href="https://github.com/felipehtt" title="GitHub" class="social-link"><img
+                                src="./public/assets/images/Github.svg" alt="GitHub"></a>
+                        <a href="https://wa.me/5511962652061" title="WhatsApp" class="social-link"><img
+                                src="./public/assets/images/WhatsApp.svg" alt="WhatsApp"></a>
+                        <a href="https://www.linkedin.com/in/felipe-soares-917616301" title="LinkedIn"
+                            class="social-link"><img src="./public/assets/images/LinkedIN.svg" alt="LinkedIn"></a>
                     </div>
                 </div>
+                <aside class="hero-panel">
+                    <div class="hero-panel-card hero-panel-objective">
+                        <p class="hero-panel-label">Objetivo</p>
+                        <p class="hero-panel-note">Atuar como Desenvolvedor de Sistemas e Web, desenvolvendo soluções
+                            modernas, automações e aplicações eficientes, com foco em performance, usabilidade e
+                            inovação. Busco crescer profissionalmente na área de tecnologia, contribuindo com projetos
+                            que gerem resultados e agreguem valor ao negócio.</p>
+                    </div>
+                </aside>
+            </section>
 
-                <div class="tech-icons" aria-label="Tecnologias">
-                    <span>⚛️ React</span>
-                    <span>🟢 Node.js</span>
-                    <span>🐬 SQL</span>
-                    <span>🟠 HTML</span>
-                    <span>🎨 CSS</span>
-                    <span>☕ JavaScript</span>
-                    <span>🐍 Python</span>
+            <!-- SEÇÃO 01. SOBRE -->
+            <section id="sobre" class="section-sobre">
+                <div class="section-label">01. sobre</div>
+                <h2>Quem sou eu</h2>
+
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <p>Sou estudante de Engenharia de Software na Estácio Santo Amaro (2026-2029), com formação
+                            técnica em Informática pelo Instituto Nossa Senhora de Fátima (concluída em 2024).</p>
+                        <p>Atuei em suporte técnico N1 na Engibras, cuidando do Active Directory, manutenção de hardware
+                            e resolução de problemas diários para usuários e equipe.</p>
+                        <p>Desenvolvi um TCC full-stack com React, Node.js, API REST e SQL. Gosto de entregar interfaces
+                            claras, desempenho sólido e código que seja fácil de manter.</p>
+                        <p>Busco oportunidades onde eu possa contribuir de forma prática, aprender com experiência real
+                            e crescer em desenvolvimento web e infraestrutura.</p>
+                    </div>
+                    <aside class="sobre-profile">
+                        <div class="profile-image">
+                            <img src="./public/assets/images/Felipe.jpg" alt="Foto de Felipe Soares">
+                        </div>
+                    </aside>
                 </div>
 
-                <div class="contatos-rapidos">
-                    <a href="#contato">📱 Contatos</a>
-                    <a href="#projetos">🚀 Ver trabalhos</a>
+            </section>
+
+            <!-- SEÇÃO 02. TRAJETÓRIA -->
+            <section id="trajetoria" class="section-trajetoria">
+                <div class="section-label">02. trajetória</div>
+                <h2>Experiência & Formação</h2>
+
+                <div class="trajetoria-grid">
+                    <div class="trajetoria-column">
+                        <h3>Experiência Profissional</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Suporte de TI</h4>
+                                    <p class="company">Engibras</p>
+                                    <p class="date">📅 Jan/2024 - Dez/2024 | São Paulo, SP</p>
+                                    <p class="description">Aprendiz em TI, com foco em suporte técnico e
+                                        infraestrutura. Experiência no atendimento de chamados, resolução de problemas
+                                        de hardware, rede e sistemas, além de manutenção e configuração de computadores.
+                                        Vivência com ambientes corporativos, incluindo domínio e Azure Active Directory
+                                        (gestão de usuários e licenças), controle de inventário de ativos, monitoramento
+                                        de segurança com Kaspersky e uso de Excel com automações para otimização de
+                                        processos.</p>
+                                    <div class="skills-tags">
+                                        <span>Active Directory</span>
+                                        <span>Hardware</span>
+                                        <span>Troubleshooting</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>TCC Full-stack</h4>
+                                    <p class="company">Instituto Nossa Senhora de Fátima</p>
+                                    <p class="date">📅 2024 | Projeto</p>
+                                    <p class="description">Atuei como desenvolvedor Front-End em uma plataforma web
+                                        voltada para organização de festas e eventos, participando ativamente da criação
+                                        e implementação de funcionalidades CRUD. Fui responsável pelo desenvolvimento de
+                                        interfaces modernas, responsivas e intuitivas, com foco em usabilidade e
+                                        experiência do usuário (UI/UX). Também colaborei na integração entre front-end e
+                                        API, garantindo comunicação eficiente com o banco de dados e melhor desempenho
+                                        da aplicação. O projeto reforçou minhas competências em desenvolvimento web,
+                                        arquitetura de interfaces e integração de sistemas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trajetoria-column">
+                        <h3>Formação Acadêmica</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Engenharia de Software</h4>
+                                    <p class="company">Estácio Santo Amaro</p>
+                                    <p class="date">📅 Fev/2026 - Dez/2029 | Cursando</p>
+                                    <p class="description">Formação completa em Engenharia de Software com foco em
+                                        arquitetura, padrões de design, metodologias ágeis e desenvolvimento
+                                        sustentável.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Técnico em Informática</h4>
+                                    <p class="company">Instituto Nossa Senhora de Fátima</p>
+                                    <p class="date">📅 Jan/2024 - Dez/2024 | Concluído</p>
+                                    <p class="description">Formação técnica incluindo desenvolvimento web full-stack,
+                                        montagem de PCs, infraestrutura de TI e TCC: plataforma de eventos com React,
+                                        Node.js e SQL.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Inglês Intermediário</h4>
+                                    <p class="company">Instituto Nossa Senhora de Fátima</p>
+                                    <p class="date">📅 Jan/2025 - Dez/2025 | Cursando</p>
+                                    <p class="description">Desenvolvimento do inglês em nível intermediário com foco em
+                                        comunicação profissional e vocabulário técnico de tecnologia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <aside class="perfil">
-                <div class="foto-perfil">
-                    <img src="./public/assets/images/Felipe.jpg" alt="Foto de perfil de Felipe Soares" />
+            <!-- SEÇÃO 03. SKILLS -->
+            <section id="skills" class="section-skills">
+                <div class="section-label">03. tecnologias</div>
+                <h2>Principais Competências</h2>
+                <p class="skills-description">Tecnologias e habilidades que utilizo para construir aplicações web
+                    modernas e responsivas.</p>
+
+                <div class="skills-grid">
+                    <div class="skill-category" style="border-color: #7c3aed;">
+                        <h3>FRONT-END</h3>
+                        <div class="skill-tags">
+                            <span>React.js</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                            <span>Design Responsivo</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" style="border-color: #10b981;">
+                        <h3>BACK-END</h3>
+                        <div class="skill-tags">
+                            <span>Node.js</span>
+                            <span>API REST</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" style="border-color: #d97706;">
+                        <h3>BANCO DE DADOS</h3>
+                        <div class="skill-tags">
+                            <span>SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" style="border-color: #8b5cf6; grid-column: 1 / -1;">
+                        <h3>INFRAESTRUTURA & FERRAMENTAS</h3>
+                        <div class="skill-tags">
+                            <span>Suporte N1</span>
+                            <span>Hardware</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="perfil-dados">
-                    <p>Full-stack Developer</p>
-                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">Técnico em Informática 2024</p>
-                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">Eng. de Software (loading)</p>
-                    <p style="font-size: 0.85rem; margin-top: 0.5rem;">Inglês Intermediário</p>
+            </section>
+
+            <!-- SEÇÃO 04. PROJETOS -->
+            <section id="projetos" class="section-projetos">
+                <div class="section-label">04. portfólio</div>
+                <h2>Meus Projetos</h2>
+                <p class="projects-description">Projetos que desenvolvi durante minha formação e que demonstram minhas
+                    habilidades em full stack development.</p>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-image">
+                            <div class="project-gallery">
+                                <div class="project-gallery-track">
+                                    <div class="project-gallery-slide">
+                                        <img src="./public/assets/images/project1.svg"
+                                            alt="Projeto de eventos - imagem 1">
+                                    </div>
+                                    <div class="project-gallery-slide">
+                                        <img src="./public/assets/images/project3.svg"
+                                            alt="Projeto de eventos - imagem 2">
+                                    </div>
+                                    <div class="project-gallery-slide">
+                                        <img src="./public/assets/images/project4.svg"
+                                            alt="Projeto de eventos - imagem 3">
+                                    </div>
+                                </div>
+                                <button class="gallery-btn gallery-prev" aria-label="Foto anterior">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg>
+                                </button>
+                                <button class="gallery-btn gallery-next" aria-label="Próxima foto">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                                <div class="gallery-dots">
+                                    <button class="gallery-dot active" data-slide="0" aria-label="Ver foto 1"></button>
+                                    <button class="gallery-dot" data-slide="1" aria-label="Ver foto 2"></button>
+                                    <button class="gallery-dot" data-slide="2" aria-label="Ver foto 3"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="tag">Full-stack</span>
+                        <h3>Plataforma Web para Organização de Eventos</h3>
+                        <p>Projeto de TCC: aplicação web completa com React no front-end, Node.js e API REST no
+                            back-end, e banco de dados SQL. Foco em interfaces responsivas e operações CRUD.</p>
+                        <div class="card-tech">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>API REST</span>
+                            <span>SQL</span>
+                        </div>
+                        <a href="https://github.com/felipehtt" class="github-link" target="_blank">Ver no GitHub</a>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image">
+                            <div class="project-gallery">
+                                <div class="project-gallery-track">
+                                    <div class="project-gallery-slide">
+                                        <img src="./public/assets/images/project2.svg"
+                                            alt="Portfólio pessoal - imagem 1">
+                                    </div>
+                                    <div class="project-gallery-slide">
+                                        <img src="./public/assets/images/project3.svg"
+                                            alt="Portfólio pessoal - imagem 2">
+                                    </div>
+                                </div>
+                                <button class="gallery-btn gallery-prev" aria-label="Foto anterior">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg>
+                                </button>
+                                <button class="gallery-btn gallery-next" aria-label="Próxima foto">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </button>
+                                <div class="gallery-dots">
+                                    <button class="gallery-dot active" data-slide="0" aria-label="Ver foto 1"></button>
+                                    <button class="gallery-dot" data-slide="1" aria-label="Ver foto 2"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="tag">Front-end</span>
+                        <h3>Portfólio Pessoal</h3>
+                        <p>Site pessoal com HTML, CSS e JavaScript que mostra design responsivo, navegação clara e
+                            abordagem prática de UI/UX.</p>
+                        <div class="card-tech">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <a href="https://github.com/felipehtt" class="github-link" target="_blank">Ver no GitHub</a>
+                    </article>
                 </div>
-            </aside>
+            </section>
+
+            <!-- SEÇÃO 05. CONTATO -->
+            <section id="contato" class="section-contato">
+                <div class="section-label">05. contato</div>
+                <h2>Vamos conversar?</h2>
+                <p class="contato-description">Estou sempre aberto a oportunidades, projetos interessantes, mentoria ou
+                    simplesmente uma conversa sobre desenvolvimento e tecnologia. Entre em contato!</p>
+
+                <div class="contato-cards">
+                    <a href="mailto:fs.oliveira0014@gmail.com" class="contato-card">
+                        <img src="./public/assets/images/Email.png" alt="Email" class="card-icon email-icon">
+                        <h3>Email</h3>
+                        <p>fs.oliveira0014@gmail.com</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/felipe-soares-917616301" class="contato-card" target="_blank">
+                        <img src="./public/assets/images/LinkedIN.svg" alt="LinkedIn" class="card-icon">
+                        <h3>LinkedIn</h3>
+                        <p>Conecte-se comigo</p>
+                    </a>
+
+                    <a href="https://github.com/felipehtt" class="contato-card" target="_blank">
+                        <img src="./public/assets/images/Github.svg" alt="GitHub" class="card-icon github-icon">
+                        <h3>GitHub</h3>
+                        <p>Veja meus projetos</p>
+                    </a>
+                </div>
+            </section>
+
         </main>
 
-        <main id="projetos" class="projetos">
-            <h2>Meus projetos</h2>
-            <div class="cards">
-                <article class="card">
-                    <img src="./public/assets/images/project1.svg" alt="Plataforma de Organização de Eventos">
-                    <span class="tag">Plataforma</span>
-                    <h3>Plataforma de Organização de Eventos</h3>
-                    <p>Aplicação web CRUD completa com React no front-end, integrada à API. Interfaces intuitivas e responsivas focadas em usabilidade e experiência do usuário.</p>
-                    <a href="https://github.com/felipe/project1" class="github-link" target="_blank">Ver no GitHub</a>
-                </article>
-                <article class="card">
-                    <img src="./public/assets/images/project2.svg" alt="Sistema Integrado">
-                    <span class="tag">Full-stack</span>
-                    <h3>Sistema Integrado</h3>
-                    <p>Desenvolvimento de aplicações completas com Node.js, React e SQL. Arquitetura robusta com suporte a operações CRUD e integração backend-frontend.</p>
-                    <a href="https://github.com/felipe/project2" class="github-link" target="_blank">Ver no GitHub</a>
-                </article>
-                <article class="card">
-                    <img src="./public/assets/images/project3.svg" alt="Interfaces Responsivas">
-                    <span class="tag">UI/UX</span>
-                    <h3>Interfaces Responsivas</h3>
-                    <p>Design moderno e responsivo com foco em acessibilidade. Implementação de componentes React reutilizáveis e otimizados para performance.</p>
-                    <a href="https://github.com/felipe/project3" class="github-link" target="_blank">Ver no GitHub</a>
-                </article>
-                <article class="card">
-                    <img src="./public/assets/images/project4.svg" alt="Suporte N1 e Infra">
-                    <span class="tag">Infraestrutura</span>
-                    <h3>Suporte N1 e Infra</h3>
-                    <p>Experiência em suporte técnico, infraestrutura de TI e manutenção de sistemas. Base sólida em hardware e gerenciamento de redes.</p>
-                    <a href="https://github.com/felipe/project4" class="github-link" target="_blank">Ver no GitHub</a>
-                </article>
+        <footer class="rodape">
+            <div class="footer-content">
+                <p>&copy; 2026 Felipe Soares. Feito com HTML, CSS e um pouco de criatividade.</p>
+                <a href="#home" class="footer-top">Voltar ao topo ↑</a>
             </div>
-        </main>
-
-        <main id="servicos" class="servicos">
-            <h2>Habilidades e Tecnologias</h2>
-            <div class="servico-lista">
-                <section>
-                    <h3>Desenvolvimento Web</h3>
-                    <p>React, Node.js, JavaScript e SQL para construir aplicações web modernas e responsivas.</p>
-                </section>
-                <section>
-                    <h3>UI/UX Design</h3>
-                    <p>Interfaces intuitivas, responsivas e centradas na experiência do usuário com HTML e CSS.</p>
-                </section>
-                <section>
-                    <h3>Suporte Técnico</h3>
-                    <p>Experiência em Suporte N1, infraestrutura de TI e manutenção de sistemas.</p>
-                </section>
-                <section>
-                    <h3>Hardware e Sistemas</h3>
-                    <p>Base sólida em hardware, gerenciamento de redes e desenvolvimento de sistemas.</p>
-                </section>
-            </div>
-
-            <div class="linguagens">
-                <span>⚛️ React</span>
-                <span>🟢 Node.js</span>
-                <span>🐬 SQL</span>
-                <span>☕ JavaScript</span>
-                <span>🟠 HTML</span>
-                <span>🎨 CSS</span>
-                <span>🐍 Python</span>
-            </div>
-        </main>
-
-        <footer id="contato" class="rodape">
-            <h4>Contatos</h4>
-            <div class="footer-icons">
-                <a href="mailto:fs.oliveira0014@gmail.com" title="Email" class="icon-link">
-                    <img src="./public/assets/images/Email.png" alt="Email" />
-                </a>
-                <a href="https://www.linkedin.com/in/felipe-soares-917616301" target="_blank" title="LinkedIn" class="icon-link">
-                    <img src="./public/assets/images/LinkedIN.svg" alt="LinkedIn" />
-                </a>
-                <a href="https://github.com/felipehtt" target="_blank" title="GitHub" class="icon-link">
-                    <img src="./public/assets/images/Github.svg" alt="GitHub" />
-                </a>
-                <a href="http://wa.me/5511962652061" target="_blank" title="WhatsApp" class="icon-link">
-                    <img src="./public/assets/images/WhatsApp.svg" alt="WhatsApp" />
-                </a>
-            </div>
-            <p class="footer-copy">© 2026 Felipe Soares. Estudante de T.I em constante evolução.</p>
         </footer>
 
     </div>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
