@@ -40,3 +40,17 @@ galleries.forEach((gallery) => {
     window.addEventListener('resize', updateGallery);
     updateGallery();
 });
+
+const menuToggle = document.querySelector('.menu-toggle');
+const headerTopo = document.querySelector('.topo');
+const navLinks = document.querySelectorAll('.nav-menu a');
+
+menuToggle?.addEventListener('click', () => {
+    headerTopo?.classList.toggle('menu-open');
+});
+
+navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+        headerTopo?.classList.remove('menu-open');
+    });
+});

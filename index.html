@@ -13,7 +13,9 @@
     <div class="pagina-home">
 
         <header class="topo">
-            <a class="logo" href="#home">&lt;Felipe</a>
+            <div class="header-brand">
+                <a class="logo" href="#home">&lt;Felipe /&gt;</a>
+            </div>
             <nav class="nav-menu">
                 <a href="#sobre">Sobre</a>
                 <a href="#trajetoria">Experiência</a>
@@ -21,7 +23,14 @@
                 <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
             </nav>
-            <span class="tag-close">/&gt;</span>
+            <button class="menu-toggle" type="button" aria-label="Abrir menu">
+                <svg class="icon-menu" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg>
+                <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 6l12 12M18 6L6 18" />
+                </svg>
+            </button>
         </header>
 
         <main class="conteudo-principal">
@@ -31,10 +40,21 @@
                 <div class="hero-content">
                     <div class="hero-badge">● Disponível para oportunidades</div>
                     <h1>Olá, sou <span>Felipe</span></h1>
-                    <p class="hero-subtitle">💻 Estudante de Engenharia de Software e desenvolvedor web em formação</p>
+                    <p class="hero-subtitle">
+                        <svg class="hero-icon hero-icon-laptop" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 6h16v10H4zM2 16h20M8 20h8" />
+                        </svg>
+                        Estudante de Engenharia de Software e desenvolvedor web em formação
+                    </p>
                     <p class="hero-description">Graduando em Engenharia de Software e focado em projetos práticos com
                         React, Node.js e interfaces simples e funcionais para o usuário.</p>
-                    <div class="hero-location">📍 São Paulo, SP — Brasil | +55 11 96265-2061</div>
+                    <div class="hero-location">
+                        <svg class="hero-icon hero-icon-location" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 21s-6-5.05-6-9a6 6 0 1 1 12 0c0 3.95-6 9-6 9z" />
+                            <circle cx="12" cy="9" r="2.5" />
+                        </svg>
+                        São Paulo, SP — Brasil | +55 11 96265-2061
+                    </div>
                     <div class="hero-buttons">
                         <a href="#projetos" class="btn-primary">Meus Projetos</a>
                         <a href="https://github.com/felipehtt" title="GitHub" class="social-link"><img
@@ -95,7 +115,7 @@
                                 <div class="timeline-content">
                                     <h4>Suporte de TI</h4>
                                     <p class="company">Engibras</p>
-                                    <p class="date">📅 Jan/2024 - Dez/2024 | São Paulo, SP</p>
+                                    <p class="date"><svg class="date-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM4 11h16M8 3v4M16 3v4"/></svg>Jan/2026 - Fev/2027 | São Paulo, SP</p>
                                     <p class="description">Aprendiz em TI, com foco em suporte técnico e
                                         infraestrutura. Experiência no atendimento de chamados, resolução de problemas
                                         de hardware, rede e sistemas, além de manutenção e configuração de computadores.
@@ -106,7 +126,7 @@
                                     <div class="skills-tags">
                                         <span>Active Directory</span>
                                         <span>Hardware</span>
-                                        <span>Troubleshooting</span>
+                                        <span>Resolução de Problemas</span>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +135,7 @@
                                 <div class="timeline-content">
                                     <h4>TCC Full-stack</h4>
                                     <p class="company">Instituto Nossa Senhora de Fátima</p>
-                                    <p class="date">📅 2024 | Projeto</p>
+                                    <p class="date"><svg class="date-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM4 11h16M8 3v4M16 3v4"/></svg>2024 | Projeto</p>
                                     <p class="description">Atuei como desenvolvedor Front-End em uma plataforma web
                                         voltada para organização de festas e eventos, participando ativamente da criação
                                         e implementação de funcionalidades CRUD. Fui responsável pelo desenvolvimento de
@@ -137,7 +157,7 @@
                                 <div class="timeline-content">
                                     <h4>Engenharia de Software</h4>
                                     <p class="company">Estácio Santo Amaro</p>
-                                    <p class="date">📅 Fev/2026 - Dez/2029 | Cursando</p>
+                                    <p class="date"><svg class="date-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM4 11h16M8 3v4M16 3v4"/></svg>Fev/2026 - Dez/2029 | Cursando</p>
                                     <p class="description">Formação completa em Engenharia de Software com foco em
                                         arquitetura, padrões de design, metodologias ágeis e desenvolvimento
                                         sustentável.</p>
@@ -149,7 +169,7 @@
                                 <div class="timeline-content">
                                     <h4>Técnico em Informática</h4>
                                     <p class="company">Instituto Nossa Senhora de Fátima</p>
-                                    <p class="date">📅 Jan/2024 - Dez/2024 | Concluído</p>
+                                    <p class="date"><svg class="date-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM4 11h16M8 3v4M16 3v4"/></svg>Jan/2024 - Dez/2024 | Concluído</p>
                                     <p class="description">Formação técnica incluindo desenvolvimento web full-stack,
                                         montagem de PCs, infraestrutura de TI e TCC: plataforma de eventos com React,
                                         Node.js e SQL.</p>
@@ -161,7 +181,7 @@
                                 <div class="timeline-content">
                                     <h4>Inglês Intermediário</h4>
                                     <p class="company">Instituto Nossa Senhora de Fátima</p>
-                                    <p class="date">📅 Jan/2025 - Dez/2025 | Cursando</p>
+                                    <p class="date"><svg class="date-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM4 11h16M8 3v4M16 3v4"/></svg>Jan/2025 - Dez/2025 | Cursando</p>
                                     <p class="description">Desenvolvimento do inglês em nível intermediário com foco em
                                         comunicação profissional e vocabulário técnico de tecnologia.</p>
                                 </div>
