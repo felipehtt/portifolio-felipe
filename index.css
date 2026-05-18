@@ -12,7 +12,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     min-height: 100%;
 }
@@ -301,6 +302,7 @@ video {
 .btn-primary:hover {
     background: #2563eb;
 }
+
 .hero-panel {
     display: grid;
     gap: 20px;
@@ -407,9 +409,12 @@ video {
 }
 
 @keyframes pulse {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0.5;
     }
+
     50% {
         opacity: 1;
     }
